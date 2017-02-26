@@ -1,0 +1,39 @@
+.btn {
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  white-space: nowrap;
+  display: inline-block;
+
+  &:hover {
+    color: white;
+  }
+
+  &-highlight {
+    background-color: $zplred;
+    border-style: solid;
+    color: white;
+    text-shadow: 0 1px $zplredlight;
+  }
+
+  &-landing-search {
+    font-size: 18px;
+    font-weight: normal;
+    padding: .5em 1em;
+
+    @media (min-width: $screen-sm-min) {
+      padding: .5em 3em;
+    }
+
+    &:hover {
+      color: white;
+      background: $zplreddark;
+    }
+  }
+
+
+}

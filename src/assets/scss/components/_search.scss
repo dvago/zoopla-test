@@ -1,0 +1,32 @@
+.#{$css-prefix} {
+
+  &__finder {
+
+    &-title {
+      margin: 16px 0;
+      font-size: 1.4em;
+
+      @media (min-width: $screen-sm-min) {
+        margin: 2.4rem 0;
+      }
+
+      @media (min-width: $screen-lg-min) {
+        margin: 3.2rem 0;
+      }
+    }
+
+    &-input {
+      display: inline-block;
+      width: calc(100% - 10rem);
+
+      @media (min-width: $screen-sm-min) {
+        width: calc(100% - 18rem);
+      }
+    }
+
+    &-btn {
+
+    }
+  }
+
+}

@@ -1,0 +1,122 @@
+.#{$css-prefix} {
+
+  &__results {
+
+    &-counter {
+      margin: 1.6rem 0;
+
+      @media (min-width: $screen-sm-min) {
+        margin: 2.4rem 0;
+      }
+
+      @media (min-width: $screen-lg-min) {
+        margin: 3.2rem 0;
+      }
+
+    }
+
+    &-wrapper {
+      padding: 0;
+      list-style: none;
+    }
+
+    // Result box
+
+    &-item {
+      @media (min-width: $screen-lg-min) {
+        margin-bottom: 6.4rem;
+      }
+    }
+
+    &-picture {
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+    }
+
+    &-detail {
+
+      h2 {
+        font-size: 2.2rem;
+        font-weight: normal;
+        margin: 1.6rem 0 .8rem;
+      }
+
+      h3 {
+        font-size: 2.4rem;
+        color: $zplred;
+        margin: 0 0 .8rem;
+      }
+
+      p{
+        line-height: 1.6;
+        margin: .8rem 0 1.6rem;
+        color: lighten(black, 45);
+      }
+
+    }
+
+    // Agent box
+
+    &-agentbox {
+      background: $lightgrey;
+      padding: 1rem;
+      margin-bottom: 3.2rem;
+
+      @media (min-width: $screen-sm-min) {
+        margin-bottom: 4.8rem;
+        margin-top: 2.4rem;
+      }
+
+      p {
+        margin: 0;
+        color: lighten(black, 35);
+
+        @media (min-width: $screen-sm-min) {
+          display: inline-block;
+          padding: 0 1.2rem;
+          font-size: .9em;
+        }
+
+        @media (min-width: $screen-md-min) {
+          display: inline-block;
+          padding: 0 2.4rem;
+        }
+
+        @media (min-width: $screen-lg-min) {
+          padding: 0;
+        }
+
+      }
+    }
+
+    &-agentlogo {
+      margin-bottom: 1.6rem;
+
+      @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+      }
+
+      @media (min-width: $screen-lg-min) {
+        margin-bottom: 1.6rem;
+      }
+    }
+
+    &-agentname {
+
+    }
+
+    &-agentaddress {
+
+    }
+
+    &-agentphone {
+
+    }
+
+  }
+
+}

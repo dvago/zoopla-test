@@ -1,0 +1,18 @@
+.#{$css-prefix} {
+  opacity:0;
+  animation: fadeIn .35s forwards linear;
+}
+
+[aria-hidden=true] {
+  display: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
